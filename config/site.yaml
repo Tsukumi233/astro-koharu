@@ -11,23 +11,25 @@
 # Site Basic Information
 # =============================================================================
 site:
-  title: 余弦の博客 # 网站名称
-  alternate: cosine # 网站英文名称 用于页脚、Logo、@ handle 等
-  subtitle: WA 的一声就哭了 # 网站副标题
-  name: cos # 作者名称 - 请修改为你的名字
-  description: 一个基于 Astro 的现代化博客主题 # 网站描述
-  avatar: /img/avatar.webp # 网站头像
+  title: 独立遗世的理想乡 # 网站名称
+  alternate: Der Mond das Meer # 网站英文名称 用于页脚、Logo、@ handle 等
+  subtitle: In solitude, where we are least alone # 网站副标题
+  name: Tsukumi233 # 作者名称 - 请修改为你的名字
+  description: 独立遗世的理想乡 # 网站描述
+  avatar: /img/avatar.png # 网站头像
   showLogo: true # 是否显示 Logo
-  author: Author # 作者名称 - 请修改为你的名字
-  url: https://koharu.cosine.ren # 站点 URL 用于 RSS 和 SEO
-  defaultOgImage: /img/avatar.webp # 默认 Open Graph 图片
-  startYear: 2024 # 建站年份
+  author: Tsukumi233 # 作者名称 - 请修改为你的名字
+  url: https://blog.hotaron.top # 站点 URL 用于 RSS 和 SEO
+  defaultOgImage: /img/avatar.png # 默认 Open Graph 图片
+  startYear: 2023 # 建站年份
   timezone: Asia/Shanghai # 时区配置 (IANA 格式)，用于日期显示和处理
   keywords: # SEO 关键词
     - 博客
     - Astro
     - 技术
-    - 前端
+    - AI
+    - Vibe Coding
+    - agent
     # 请根据你的网站内容添加关键词
   # breadcrumbHome: 首页  # 面包屑导航中首页的显示名称（默认: '首页'）
 
@@ -63,8 +65,9 @@ categoryMap:
   工具: tools
   周刊: weekly
   # Secondary categories (for nested paths)
-  前端: front-end
+  # 前端: front-end
   # Add more as needed:
+  开发: development
   # 书摘: reading
   # 后端: back-end
   # 算法: algorithm
@@ -89,10 +92,10 @@ featuredCategories:
     label: 笔记
     image: /img/cover/4.webp
     description: 技术笔记、学习笔记
-  - link: note/front-end # 嵌套分类：笔记/前端
-    label: 前端
+  - link: note/development # 嵌套分类：笔记/开发
+    label: 开发
     image: /img/cover/1.webp
-    description: 前端技术相关
+    description: 开发相关技术笔记
   - link: tools # 对应 categoryMap 中 工具: tools
     label: 工具
     image: /img/cover/11.webp
@@ -156,11 +159,11 @@ featuredSeries:
 # -----------------------------------------------------------------------------
 social:
   github:
-    url: https://github.com/your-username # 替换为你的 GitHub 链接
+    url: https://github.com/Tsukumi233 # 替换为你的 GitHub 链接
     icon: ri:github-fill # Remix Icon 的 GitHub 图标
     color: '#191717' # (可选) 图标颜色
   email:
-    url: mailto:your@email.com # 替换为你的邮箱，需加 mailto: 前缀
+    url: mailto:mondmeer233@gmail.com # 替换为你的邮箱，需加 mailto: 前缀
     icon: ri:mail-line
     color: '#55acd5'
   rss:
@@ -219,30 +222,37 @@ friends:
         image: https://your-blog.com/avatar.jpg # 头像链接
         color: "#ffc0cb" # 主题色（可选）
   data: # 友链列表
-    - site: 余弦の博客
-      url: https://blog.cosine.ren
-      owner: cos
-      desc: FE / ACG / 手工 / 深色模式强迫症 / INFP / 兴趣广泛养两只猫的老宅女 / remote
-      image: https://blog.cosine.ren/img/avatar.webp
-      color: '#ed788b'
-    - site: 示例博客 A
-      url: https://example-a.com
-      owner: Alice
-      desc: 一个热爱技术的开发者
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Alice
-      color: '#BEDCFF'
-    - site: 示例博客 B
-      url: https://example-b.com
-      owner: Bob
-      desc: 分享生活与技术的小站
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Bob
-      color: '#FBC1CC'
-    - site: 示例博客 C
-      url: https://example-c.com
-      owner: Carol
-      desc: 记录学习与成长的地方
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Carol
+    # - site: 余弦の博客
+    #   url: https://blog.cosine.ren
+    #   owner: cos
+    #   desc: FE / ACG / 手工 / 深色模式强迫症 / INFP / 兴趣广泛养两只猫的老宅女 / remote
+    #   image: https://blog.cosine.ren/img/avatar.webp
+    #   color: '#ed788b'
+    - site: 01.me
+      url: https://01.me/
+      owner: Bojie Li
+      desc: 
+      image: https://01.me/favicon.ico
       color: '#ABDCFF'
+    - site: 七庙庙のPage
+      url: https://sevmeowple.github.io/
+      owner: 七庙庙
+      desc: 
+      image: https://avatars.githubusercontent.com/u/111647443
+      color: '#BEDCFF'
+    - site: Luonto‘s Blog
+      url: https://blog.361315139.cn/
+      owner: Luonto
+      desc: 
+      image: https://vip.123pan.cn/1845762190/ymjew503t0n000d7w32y5am7hqh0wm9rDIYxAIUzDqe2DcxPBdazBa==.jpg
+      color: '#FBC1CC'
+    - site: Yurun's Blog
+      url: https://blog.luonto.top/
+      owner: Yurun
+      desc: 记录技术与生活
+      image: 
+      color: '#FBC1BC'
+
 
 # =============================================================================
 # Announcements
@@ -266,19 +276,19 @@ friends:
 # 取消下方注释即可启用公告示例：
 # -----------------------------------------------------------------------------
 announcements:
-  # - id: welcome-2026 # 唯一标识符
-  #   title: 2026 年新年快乐! # 公告标题
-  #   content: 新年快乐! 感谢大家一直以来的支持~ # 公告内容
-  #   type: success # 类型: info/success/warning/error
-  #   priority: 10 # 优先级，数值越大越靠前
-  #   color: '#FF6B6B' # (可选) 自定义颜色
-  #   publishDate: '2026-01-01' # 发布日期
-  #   startDate: '2025-12-31T00:00:00+08:00' # (可选) 开始显示时间
-  #   endDate: '2026-01-15T23:59:59+08:00' # (可选) 结束显示时间
-  #   link: # (可选) 相关链接
-  #     url: https://example.com
-  #     text: 了解更多
-  #     external: true # 新窗口打开
+  - id: welcome-2026 # 唯一标识符
+    title: 2026 年新春快乐! # 公告标题
+    content: 新春快乐!  # 公告内容
+    type: success # 类型: info/success/warning/error
+    priority: 10 # 优先级，数值越大越靠前
+    color: '#FF6B6B' # (可选) 自定义颜色
+    publishDate: '2026-01-01' # 发布日期
+    startDate: '2025-02-01T00:00:00+08:00' # (可选) 开始显示时间
+    endDate: '2026-02-28T23:59:59+08:00' # (可选) 结束显示时间
+  # link: # (可选) 相关链接
+  #   url: https://example.com
+  #   text: 了解更多
+  #   external: true # 新窗口打开
   # - id: maintenance-notice
   #   title: 系统维护通知
   #   content: 计划于本周末进行系统维护，届时可能短暂无法访问。
@@ -474,7 +484,7 @@ navigation:
     # path: # 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
     # lang: # 语言 (默认: 'zh-CN')
 comment:
-  provider: none  # 'remark42' | 'giscus' | 'waline' | 'twikoo' | 'none'
+  provider: waline  # 'remark42' | 'giscus' | 'waline' | 'twikoo' | 'none'
   # remark42:
   #   host: https://comment.example.com/
   #   siteId: your-site-id
@@ -489,43 +499,43 @@ comment:
   #   inputPosition: top               # 输入框位置 ('top' | 'bottom')
   #   lang: zh-CN                      # 语言
 
-  # waline:
-  #   serverURL: https://your-waline.vercel.app  # Waline 服务端地址 (必填)
-  #   lang: zh-CN                      # 语言 (默认: 'zh-CN')
-  #   dark: html.dark                  # 暗黑模式 (默认: 'html.dark')
-  #                                    # 可选: true (自适应) | false (禁用) | CSS选择器字符串
-  #   meta:                            # 评论者信息字段 (默认: ['nick', 'mail', 'link'])
-  #     - nick
-  #     - mail
-  #     - link
-  #   requiredMeta:                    # 必填字段 (默认: [])
-  #     - nick
-  #   login: enable                    # 登录模式 ('enable' | 'disable' | 'force', 默认: 'enable')
-  #   wordLimit: 0                     # 评论字数限制 (0 = 无限制, 默认: 0)
-  #                                    # 可选: 单个数字 | [min, max] 数组
-  #   pageSize: 10                     # 每页评论数 (默认: 10)
-  #   imageUploader: false             # 图片上传功能 (默认: false)
-  #   highlighter: true                # 代码高亮 (默认: true)
-  #   texRenderer: false               # LaTeX 渲染 (默认: false)
-  #   search: false                    # 搜索功能 (默认: false)
-  #   reaction: false                  # 文章反应功能 (默认: false)
-  #                                    # 可选: true | false | 字符串数组 (自定义反应图标)
-  #   emoji: true                      # 表情包配置 (默认: ['//unpkg.com/@waline/emojis@1.2.0/weibo'])
-  #                                    # 可选: true | false | 字符串/对象数组
-  #                                    # 预设表情包: '//unpkg.com/@waline/emojis@1.2.0/weibo'
-  #                                    #           '//unpkg.com/@waline/emojis@1.2.0/alus'
-  #                                    #           '//unpkg.com/@waline/emojis@1.2.0/bilibili'
-  #                                    #           '//unpkg.com/@waline/emojis@1.2.0/qq'
-  #                                    #           '//unpkg.com/@waline/emojis@1.2.0/tieba'
-  #                                    #           '//unpkg.com/@waline/emojis@1.2.0/tw-emoji'
-  #   commentSorting: latest           # 评论排序 ('latest' | 'oldest' | 'hottest', 默认: 'latest')
-  #   noCopyright: false               # 隐藏页脚版权信息 (默认: false)
-  #   comment: true                    # 评论数统计 (默认: true)
-  #   pageview: true                   # 页面访问量统计 (默认: true)
-  #   # recaptchaV3Key: ''             # reCAPTCHA v3 Key (可选)
-  #   # turnstileKey: ''               # Cloudflare Turnstile Key (可选)
-  #   # locale:                        # 自定义语言显示 (可选)
-  #   #   placeholder: '请留言...'      # 自定义输入框占位文本
+  waline:
+    serverURL: https://waline.hotaron.top/  # Waline 服务端地址 (必填)
+    lang: zh-CN                      # 语言 (默认: 'zh-CN')
+    dark: html.dark                  # 暗黑模式 (默认: 'html.dark')
+                                     # 可选: true (自适应) | false (禁用) | CSS选择器字符串
+    meta:                            # 评论者信息字段 (默认: ['nick', 'mail', 'link'])
+      - nick
+      - mail
+      - link
+    requiredMeta:                    # 必填字段 (默认: [])
+      - nick
+    login: enable                    # 登录模式 ('enable' | 'disable' | 'force', 默认: 'enable')
+    wordLimit: 0                     # 评论字数限制 (0 = 无限制, 默认: 0)
+                                     # 可选: 单个数字 | [min, max] 数组
+    pageSize: 10                     # 每页评论数 (默认: 10)
+    imageUploader: false             # 图片上传功能 (默认: false)
+    highlighter: true                # 代码高亮 (默认: true)
+    texRenderer: true               # LaTeX 渲染 (默认: false)
+    search: false                    # 搜索功能 (默认: false)
+    reaction: false                  # 文章反应功能 (默认: false)
+                                     # 可选: true | false | 字符串数组 (自定义反应图标)
+    emoji: ['//unpkg.com/@waline/emojis@1.2.0/tieba']                      # 表情包配置 (默认: ['//unpkg.com/@waline/emojis@1.2.0/weibo'])
+                                     # 可选: true | false | 字符串/对象数组
+                                     # 预设表情包: '//unpkg.com/@waline/emojis@1.2.0/weibo'
+                                     #           '//unpkg.com/@waline/emojis@1.2.0/alus'
+                                     #           '//unpkg.com/@waline/emojis@1.2.0/bilibili'
+                                     #           '//unpkg.com/@waline/emojis@1.2.0/qq'
+                                     #           '//unpkg.com/@waline/emojis@1.2.0/tieba'
+                                     #           '//unpkg.com/@waline/emojis@1.2.0/tw-emoji'
+    commentSorting: latest           # 评论排序 ('latest' | 'oldest' | 'hottest', 默认: 'latest')
+    noCopyright: true               # 隐藏页脚版权信息 (默认: false)
+    comment: true                    # 评论数统计 (默认: true)
+    pageview: true                   # 页面访问量统计 (默认: true)
+    # recaptchaV3Key: ''             # reCAPTCHA v3 Key (可选)
+    turnstileKey: '0x4AAAAAACfp-7FN2Kh0lmaT'               # Cloudflare Turnstile Key (可选)
+    locale:                        # 自定义语言显示 (可选)
+      placeholder: '请留言...'      # 自定义输入框占位文本
   twikoo:
     envId: https://your-twikoo.vercel.app  # Twikoo 环境 ID (腾讯云) 或 Vercel 环境地址 (必填)
     # region: ap-shanghai              # 环境地域，默认为 ap-shanghai
@@ -542,8 +552,8 @@ comment:
 analytics:
   umami:
     enabled: true
-    id: your-umami-id
-    endpoint: https://stats.example.com
+    id: d6f7c9b8-d351-4d87-931d-80f4ccfcc0e7
+    endpoint: https://cloud.umami.is
 
 # =============================================================================
 # SEO Configuration
@@ -558,18 +568,18 @@ analytics:
 # -----------------------------------------------------------------------------
 seo:
   robots:
-    # policy:                          # 爬虫策略（可选，取消注释并配置）
-    #   - userAgent: '*'
-    #     allow: '/'
-    #     disallow:
-    #       - '/api/'
+    policy:                          # 爬虫策略（可选，取消注释并配置）
+      - userAgent: '*'
+        allow: '/'
+        disallow:
+          - '/api/'
     # host: true                       # 可选：添加 Host 指令（Yandex）
 
 # =============================================================================
 # Christmas/Seasonal Features
 # =============================================================================
 bgm:
-  enabled: true  # (有 audio 时自动启用，显式 false 可禁用)
+  enabled: false  # (有 audio 时自动启用，显式 false 可禁用)
   audio:
     - title: 最爱山山
       list:
@@ -610,7 +620,7 @@ christmas:
 #     - urlTemplate: URL 模板，支持占位符 {path}（文件绝对路径）
 # -----------------------------------------------------------------------------
 dev:
-  localProjectPath: '/Users/yourname/path/to/astro-koharu' # 请修改为你的项目绝对路径
+  localProjectPath: 'C:/Apps/BLOG/astro-koharu' # 请修改为你的项目绝对路径
   contentRelativePath: 'src/content/blog'
   editors:
     - id: vscode
