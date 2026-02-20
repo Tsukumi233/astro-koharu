@@ -1,26 +1,42 @@
 {
+  "weekly-example-1": {
+    "title": "Example Weekly Vol.1",
+    "summary": "本文示范了 astro-koharu 的“周刊/系列”功能：通过配置可为定期更新的系列内容生成独立页面、首页置顶及前后篇导航，并展示了本期推荐的阅读、工具与学习要点，同时预告下期将深入高级特性。"
+  },
   "getting-started": {
-    "title": "欢迎使用 astro-koharu",
-    "summary": "astro-koharu 是一个基于 Astro 5.x 构建的现代化博客主题，采用萌系粉蓝配色，具备高性能、响应式设计和丰富的功能如多级分类、标签、目录及搜索。支持快速配置与部署，推荐使用 Vercel 一键上线。"
+    "title": "Welcome to astro-koharu",
+    "summary": "astro-koharu 是一款基于 Astro 5.x 的高性能、动漫风博客主题，支持多级分类、标签、搜索等丰富功能，并完美适配桌面与移动端。只需编辑配置文件、在指定目录新建 Markdown 文章，即可一键部署到 Vercel 开始写作。"
   },
   "astro-koharu-guide": {
     "title": "astro-koharu 使用指南",
-    "summary": "本文是一份详细的 astro-koharu 博客系统使用指南，介绍了基于 Astro 5.x 构建的现代化静态博客系统，支持 Markdown 增强、多级分类与标签、周刊系列、全站搜索、阅读进度条、主题切换、LQIP 图片占位等核心功能，并提供了从配置到文章创建、功能使用及最佳实践的完整说明。系统强调性能与用户体验，通过 AI 摘要、语义推荐和节日特效等功能提升内容可读性与互动性。"
+    "summary": "astro-koharu 是基于 Astro 5.x 的高性能静态博客系统，提供深色/浅色主题、无后端搜索、Markdown 增强、多级分类标签、系列文章、草稿置顶、阅读进度、LQIP 图片占位、AI 摘要与语义推荐等全套功能。  \n配套轻量 CMS 与 CLI 工具，支持本地/浏览器写作、一键 Vercel 部署，通过简单配置即可快速打造个性化博客。"
   },
   "toc-no-numbering": {
-    "title": "关闭目录编号示例",
-    "summary": "本文介绍了如何通过设置 `tocNumbering: false` 关闭 Astro-Koharu 目录的自动编号功能。该功能默认使用 CSS 计数器实现，无运行时开销，适用于随笔、已有编号标题或结构松散的文章，可根据个人偏好或内容需求灵活使用。"
+    "title": "Disabling TOC Numbering Example",
+    "summary": "文章说明在 astro-koharu 中只需把 `tocNumbering` 设为 `false` 即可用纯 CSS 方式关闭目录自动编号，适合随笔、标题自带编号或结构松散的内容。"
+  },
+  "src\\content\\blog\\note\\shoka-features": {
+    "title": "Shoka 主题 Markdown 语法演示",
+    "summary": "文章系统梳理了 Hexo Shoka 主题支持的全部扩展 Markdown 语法，涵盖文字特效、标签、折叠、媒体、加密、练习题等 20 余种富文本与交互组件。它为从 Shoka 迁移或想复现其效果的用户提供了一份可直接套用的“语法速查表”。"
   },
   "markdown-features": {
     "title": "Markdown 增强功能演示",
-    "summary": "astro-koharu 支持丰富的 Markdown 增强功能，包括自动嵌入 Twitter/X 链接和通用链接的 OG 预览、代码高亮、Mermaid 图表、多种文本样式、标题层级、列表与图片处理等。它通过简洁的语法和智能渲染，让博客创作更加高效和美观。"
+    "summary": "文章全面演示了 astro-koharu 主题支持的 Markdown 增强功能，包括自动嵌入 Tweet/OG 链接、代码高亮、Mermaid 图表、Shoka 扩展语法（文字特效、加密块、音视频、数学公式等），所有功能均可在配置中开关。"
+  },
+  "src\\content\\blog\\note\\encrypted-post-demo": {
+    "title": "加密文章演示",
+    "summary": "文章演示了加密内容解锁后的完整功能验证，包括代码高亮、目录重建和滚动追踪等。  \n若读者能正常看到所有元素，即证明加密文章机制运行无误。"
   },
   "hello-world": {
     "title": "Hello World",
-    "summary": "这是一篇关于写作建议的随笔，倡导保持更新、记录真实、享受写作过程。文章通过简单真挚的语言，传递了写作的初心与乐趣。"
+    "summary": "文章以“Hello, World!”为题，示范了博客系统的自动摘要功能，并鼓励用“随笔”分类记录生活反思与成长。核心写作建议只有三点：持续更新、保持真实、享受过程。"
   },
   "theme-customization": {
     "title": "主题定制指南",
-    "summary": "本文详细介绍了如何自定义 astro-koharu 博客的外观和样式，包括通过嵌套分类设置层级结构、使用 CSS 变量定制配色、配置 Tailwind 主题和布局、调整响应式断点与动画效果，并支持圣诞特效等可选功能。用户可通过修改相关配置文件实现个性化博客风格。"
+    "summary": "文章系统梳理了 astro-koharu 主题的可定制入口：从 CSS 变量、Tailwind 配置、布局常量和动画设置，到圣诞特效与响应式断点，均可通过对应文件一键调整。按指引修改即可快速打造个性化博客外观。"
+  },
+  "infographic-guide": {
+    "title": "Infographic 信息图指南",
+    "summary": "文章系统讲解了如何在 Markdown 中通过 @antv/infographic 的 infographic 代码块，用 YAML 语法调用 list、sequence、compare、hierarchy、chart、quadrant、relation 等七大类模板，快速生成可视化信息图，并给出主题定制与信息密度控制等实用技巧，让文档更直观生动。"
   }
 }
