@@ -1,6 +1,6 @@
 ---
 title: Avalon Zero
-draft: true
+draft: false
 sticky: false
 tocNumbering: true
 excludeFromSummary: false
