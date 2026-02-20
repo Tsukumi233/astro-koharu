@@ -2,271 +2,271 @@
   "weekly-example-1": [
     {
       "slug": "weekly-example-1",
-      "title": "示例周刊 Vol.1",
-      "similarity": 0.94
-    },
-    {
-      "slug": "weekly-example-1",
       "title": "週間ダイジェスト Vol.1",
-      "similarity": 0.925
-    },
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.638
-    },
-    {
-      "slug": "getting-started",
-      "title": "astro-koharu へようこそ",
-      "similarity": 0.623
-    },
-    {
-      "slug": "getting-started",
-      "title": "Welcome to astro-koharu",
-      "similarity": 0.615
-    }
-  ],
-  "getting-started": [
-    {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.99
-    },
-    {
-      "slug": "getting-started",
-      "title": "astro-koharu へようこそ",
-      "similarity": 0.975
-    },
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.869
-    },
-    {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.653
+      "similarity": 0.835
     },
     {
       "slug": "weekly-example-1",
       "title": "示例周刊 Vol.1",
-      "similarity": 0.645
-    }
-  ],
-  "astro-koharu-guide": [
+      "similarity": 0.8
+    },
     {
-      "slug": "getting-started",
-      "title": "Welcome to astro-koharu",
-      "similarity": 0.869
+      "slug": "theme-customization",
+      "title": "主题定制指南",
+      "similarity": 0.54
     },
     {
       "slug": "getting-started",
       "title": "欢迎使用 astro-koharu",
-      "similarity": 0.864
+      "similarity": 0.533
     },
     {
       "slug": "getting-started",
-      "title": "astro-koharu へようこそ",
-      "similarity": 0.861
-    },
-    {
-      "slug": "weekly-example-1",
-      "title": "示例周刊 Vol.1",
-      "similarity": 0.656
-    },
-    {
-      "slug": "weekly-example-1",
-      "title": "週間ダイジェスト Vol.1",
-      "similarity": 0.646
+      "title": "Welcome to astro-koharu",
+      "similarity": 0.516
     }
   ],
   "toc-no-numbering": [
     {
       "slug": "toc-no-numbering",
       "title": "关闭目录编号示例",
-      "similarity": 0.923
+      "similarity": 0.69
     },
     {
       "slug": "toc-no-numbering",
       "title": "目次の自動番号を無効にする例",
-      "similarity": 0.891
-    },
-    {
-      "slug": "weekly-example-1",
-      "title": "Example Weekly Vol.1",
-      "similarity": 0.51
-    },
-    {
-      "slug": "weekly-example-1",
-      "title": "示例周刊 Vol.1",
-      "similarity": 0.47
+      "similarity": 0.674
     },
     {
       "slug": "weekly-example-1",
       "title": "週間ダイジェスト Vol.1",
-      "similarity": 0.459
+      "similarity": 0.442
+    },
+    {
+      "slug": "weekly-example-1",
+      "title": "Example Weekly Vol.1",
+      "similarity": 0.42
+    },
+    {
+      "slug": "getting-started",
+      "title": "欢迎使用 astro-koharu",
+      "similarity": 0.404
     }
   ],
   "src\\content\\blog\\note\\shoka-features": [
     {
       "slug": "markdown-features",
       "title": "Markdown 增强功能演示",
-      "similarity": 0.745
+      "similarity": 0.815
     },
     {
-      "slug": "getting-started",
-      "title": "astro-koharu へようこそ",
-      "similarity": 0.526
-    },
-    {
-      "slug": "getting-started",
-      "title": "Welcome to astro-koharu",
-      "similarity": 0.524
-    },
-    {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.52
+      "slug": "astro-koharu-guide",
+      "title": "astro-koharu 使用指南",
+      "similarity": 0.705
     },
     {
       "slug": "infographic-guide",
       "title": "Infographic 信息图指南",
-      "similarity": 0.518
+      "similarity": 0.658
+    },
+    {
+      "slug": "theme-customization",
+      "title": "主题定制指南",
+      "similarity": 0.572
+    },
+    {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "similarity": 0.562
     }
   ],
   "markdown-features": [
     {
       "slug": "src\\content\\blog\\note\\shoka-features",
       "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.745
-    },
-    {
-      "slug": "getting-started",
-      "title": "Welcome to astro-koharu",
-      "similarity": 0.653
+      "similarity": 0.815
     },
     {
       "slug": "getting-started",
       "title": "欢迎使用 astro-koharu",
-      "similarity": 0.651
-    },
-    {
-      "slug": "getting-started",
-      "title": "astro-koharu へようこそ",
-      "similarity": 0.646
+      "similarity": 0.724
     },
     {
       "slug": "astro-koharu-guide",
       "title": "astro-koharu 使用指南",
-      "similarity": 0.638
+      "similarity": 0.712
+    },
+    {
+      "slug": "getting-started",
+      "title": "astro-koharu へようこそ",
+      "similarity": 0.661
+    },
+    {
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.652
     }
   ],
   "src\\content\\blog\\note\\encrypted-post-demo": [
     {
       "slug": "markdown-features",
       "title": "Markdown 增强功能演示",
-      "similarity": 0.571
+      "similarity": 0.589
+    },
+    {
+      "slug": "toc-no-numbering",
+      "title": "关闭目录编号示例",
+      "similarity": 0.545
     },
     {
       "slug": "src\\content\\blog\\note\\shoka-features",
       "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.506
+      "similarity": 0.542
     },
     {
       "slug": "weekly-example-1",
       "title": "示例周刊 Vol.1",
-      "similarity": 0.503
+      "similarity": 0.515
     },
     {
-      "slug": "weekly-example-1",
-      "title": "週間ダイジェスト Vol.1",
-      "similarity": 0.459
+      "slug": "hello-world",
+      "title": "Hello World",
+      "similarity": 0.507
+    }
+  ],
+  "getting-started": [
+    {
+      "slug": "getting-started",
+      "title": "astro-koharu へようこそ",
+      "similarity": 0.874
     },
     {
-      "slug": "weekly-example-1",
-      "title": "Example Weekly Vol.1",
-      "similarity": 0.449
+      "slug": "getting-started",
+      "title": "欢迎使用 astro-koharu",
+      "similarity": 0.871
+    },
+    {
+      "slug": "theme-customization",
+      "title": "主题定制指南",
+      "similarity": 0.615
+    },
+    {
+      "slug": "markdown-features",
+      "title": "Markdown 增强功能演示",
+      "similarity": 0.611
+    },
+    {
+      "slug": "astro-koharu-guide",
+      "title": "astro-koharu 使用指南",
+      "similarity": 0.548
+    }
+  ],
+  "astro-koharu-guide": [
+    {
+      "slug": "markdown-features",
+      "title": "Markdown 增强功能演示",
+      "similarity": 0.712
+    },
+    {
+      "slug": "src\\content\\blog\\note\\shoka-features",
+      "title": "Shoka 主题 Markdown 语法演示",
+      "similarity": 0.705
+    },
+    {
+      "slug": "getting-started",
+      "title": "欢迎使用 astro-koharu",
+      "similarity": 0.615
+    },
+    {
+      "slug": "theme-customization",
+      "title": "主题定制指南",
+      "similarity": 0.59
+    },
+    {
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.586
     }
   ],
   "hello-world": [
     {
       "slug": "hello-world",
       "title": "Hello World",
-      "similarity": 1
+      "similarity": 0.798
     },
     {
       "slug": "hello-world",
       "title": "Hello World",
-      "similarity": 1
-    },
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.541
-    },
-    {
-      "slug": "getting-started",
-      "title": "astro-koharu へようこそ",
-      "similarity": 0.515
-    },
-    {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.508
-    }
-  ],
-  "theme-customization": [
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.641
-    },
-    {
-      "slug": "getting-started",
-      "title": "astro-koharu へようこそ",
-      "similarity": 0.59
-    },
-    {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.582
+      "similarity": 0.798
     },
     {
       "slug": "getting-started",
       "title": "Welcome to astro-koharu",
-      "similarity": 0.58
+      "similarity": 0.47
     },
     {
-      "slug": "weekly-example-1",
-      "title": "示例周刊 Vol.1",
-      "similarity": 0.562
-    }
-  ],
-  "infographic-guide": [
-    {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.532
-    },
-    {
-      "slug": "theme-customization",
-      "title": "主题定制指南",
-      "similarity": 0.523
+      "slug": "getting-started",
+      "title": "欢迎使用 astro-koharu",
+      "similarity": 0.459
     },
     {
       "slug": "src\\content\\blog\\note\\shoka-features",
       "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.518
+      "similarity": 0.456
+    }
+  ],
+  "theme-customization": [
+    {
+      "slug": "getting-started",
+      "title": "欢迎使用 astro-koharu",
+      "similarity": 0.691
+    },
+    {
+      "slug": "weekly-example-1",
+      "title": "示例周刊 Vol.1",
+      "similarity": 0.658
+    },
+    {
+      "slug": "markdown-features",
+      "title": "Markdown 增强功能演示",
+      "similarity": 0.618
+    },
+    {
+      "slug": "getting-started",
+      "title": "Welcome to astro-koharu",
+      "similarity": 0.615
+    },
+    {
+      "slug": "toc-no-numbering",
+      "title": "关闭目录编号示例",
+      "similarity": 0.614
+    }
+  ],
+  "infographic-guide": [
+    {
+      "slug": "src\\content\\blog\\note\\shoka-features",
+      "title": "Shoka 主题 Markdown 语法演示",
+      "similarity": 0.658
+    },
+    {
+      "slug": "markdown-features",
+      "title": "Markdown 增强功能演示",
+      "similarity": 0.652
     },
     {
       "slug": "astro-koharu-guide",
       "title": "astro-koharu 使用指南",
-      "similarity": 0.484
+      "similarity": 0.586
     },
     {
-      "slug": "getting-started",
-      "title": "astro-koharu へようこそ",
-      "similarity": 0.456
+      "slug": "theme-customization",
+      "title": "主题定制指南",
+      "similarity": 0.581
+    },
+    {
+      "slug": "toc-no-numbering",
+      "title": "关闭目录编号示例",
+      "similarity": 0.58
     }
   ]
 }
