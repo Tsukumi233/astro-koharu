@@ -10,6 +10,7 @@ tags:
 description: 展示所有 Shoka 主题兼容的特殊 Markdown 语法
 math: true
 quiz: true
+draft: true
 ---
 
 本文展示了从 Hexo Shoka 主题迁移的所有特殊 Markdown 语法。

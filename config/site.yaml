@@ -620,7 +620,7 @@ christmas:
 #     - urlTemplate: URL 模板，支持占位符 {path}（文件绝对路径）
 # -----------------------------------------------------------------------------
 dev:
-  localProjectPath: 'C:/Apps/BLOG/astro-koharu' # 请修改为你的项目绝对路径
+  localProjectPath: '/C:/Apps/BLOG/astro-koharu' # 请修改为你的项目绝对路径
   contentRelativePath: 'src/content/blog'
   editors:
     - id: vscode
