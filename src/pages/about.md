@@ -14,6 +14,6 @@ description: "关于我？"
 
 <br>
 
-博客链接：https://Tsukumi233.github.io
+博客链接：https://blog.hotaron.top/
 
 不定期更新小作文，或者赛博归档以前的小作文
