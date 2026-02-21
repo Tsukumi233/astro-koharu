@@ -4,8 +4,6 @@ draft: false
 sticky: false
 tocNumbering: true
 excludeFromSummary: false
-math: false
-quiz: false
 date: 2023-12-30 20:52:10
 updated: 2026-02-20 22:34:22
 categories:
