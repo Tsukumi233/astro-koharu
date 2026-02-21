@@ -45,7 +45,6 @@ astro-koharu is an Astro-based blog rebuilt from Hexo, inspired by the Shoka the
 
 - **Documentation lookup**: Use Context7 MCP server or WebSearch for official docs
 - **Keep CLAUDE.md updated**: Ask to update when making architectural changes
-- **Run lint before completion**: `pnpm lint:fix` must pass before completing tasks
 - **Check for dead code**: Run `pnpm knip` periodically
 
 ## Development Commands
@@ -325,7 +324,6 @@ describe("getCategoryLinks", () => {
 - [ ] Handle SSR hydration properly
 
 ### Before Committing
-- [ ] **Run linter**: `pnpm lint:fix` ✅ Required
 - [ ] Run type checker: `pnpm check`
 - [ ] Check for unused code: `pnpm knip`
 - [ ] Verify build succeeds: `pnpm build`

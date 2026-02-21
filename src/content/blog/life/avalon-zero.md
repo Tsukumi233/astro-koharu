@@ -1,5 +1,6 @@
 ---
 title: Avalon Zero
+link: avalon-zero
 draft: false
 sticky: false
 tocNumbering: true
