@@ -42,11 +42,11 @@ export const colors = {
     foreground: 'hsl(var(--warning-foreground))',
   },
 
-  // Shoka theme accent (replaces hardcoded #E95469)
+  // Shoka theme accent (ocean blue)
   shoka: {
-    DEFAULT: '#E95469',
-    light: '#FF6B7A',
-    dark: '#D63F55',
+    DEFAULT: '#3A8BBF',
+    light: '#4DA0D4',
+    dark: '#2874A6',
   },
 
   // Theme toggle colors
@@ -213,7 +213,7 @@ export const shadows = {
   // Custom shadows from project
   card: '0 0.625rem 1.875rem rgba(90, 97, 105, 0.12)',
   'card-darker': '0 0.625rem 1.875rem rgba(90, 97, 105, 0.2)',
-  'shoka-button': '0px 0px 16px 0px rgb(233, 84, 105, 0.8)',
+  'shoka-button': '0px 0px 16px 0px rgb(58, 139, 191, 0.8)',
 } as const;
 
 /**
@@ -366,7 +366,7 @@ export const zIndex = {
  * Multi-color arrays for gradients and backgrounds.
  */
 export const gridBackground = {
-  light: ['#ed719a', '#FFACDE', '#FBD7ED', '#EEF1F0', '#DDDDDD', '#B4B4B4'],
+  light: ['#4da0d4', '#88c5ed', '#b8ddf5', '#e0ecf5', '#dde4eb', '#b4bcc4'],
   dark: ['#212832', '#3F4659', '#8592A7', '#EEEFEA', '#212832', '#3F4659'],
 } as const;
 

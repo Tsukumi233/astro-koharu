@@ -4,7 +4,7 @@ import { localizedPath } from '@/i18n';
 
 const TAG_COLORS = [
   'from-blue-400/10 to-indigo-300/10 hover:from-blue-400/80 hover:to-indigo-300/80 text-blue-400/70 hover:text-blue-50',
-  'from-pink-300/10 to-rose-200/10 hover:from-pink-300/80 hover:to-rose-200/80 text-pink-400/70 hover:text-pink-50',
+  'from-sky-300/10 to-cyan-200/10 hover:from-sky-300/80 hover:to-cyan-200/80 text-sky-400/70 hover:text-sky-50',
   'from-violet-400/10 to-purple-300/10 hover:from-violet-400/80 hover:to-purple-300/80 text-violet-400/70 hover:text-violet-50',
   'from-sky-400/10 to-blue-300/10 hover:from-sky-400/80 hover:to-blue-300/80 text-sky-400/70 hover:text-sky-50',
 ];
