@@ -67,7 +67,7 @@ categoryMap:
   # Secondary categories (for nested paths)
   # 前端: front-end
   # Add more as needed:
-  开发: development
+  技术: tech
   # 书摘: reading
   # 后端: back-end
   # 算法: algorithm
@@ -92,10 +92,10 @@ featuredCategories:
     label: 笔记
     image: /img/cover/4.webp
     description: 技术笔记、学习笔记
-  - link: note/development # 嵌套分类：笔记/开发
-    label: 开发
+  - link: note/tech # 嵌套分类：笔记/技术
+    label: 技术
     image: /img/cover/1.webp
-    description: 开发相关技术笔记
+    description: 技术相关笔记
   - link: tools # 对应 categoryMap 中 工具: tools
     label: 工具
     image: /img/cover/11.webp

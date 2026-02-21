@@ -9,7 +9,7 @@ quiz: false
 date: 2026-02-21 02:49:49
 updated: 2026-02-21 02:50:06
 categories:
-  - [开发]
+  - 技术
 tags:
   - waline
   - vercel
