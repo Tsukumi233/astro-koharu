@@ -5,8 +5,7 @@ coverTitle: "关于我"
 date: 2025-01-03 01:01:33
 description: "关于我？"
 ---
-
-<img src="/img/avatar.png" alt="avatar" style="display: block; margin: 0 auto;">
+<img src="https://www.loliapi.com/acg/pp/" alt="avatar" style="display: block; margin: 0 auto; width: 300px;">
 
 摸鱼学生党……
 
