@@ -1,191 +1,191 @@
 {
-  "weekly-example-1": [
+  "shi-yong-napcat-yu-florabot-bu-shu-dui-jie-deepseek-de-qq-liao-tian-ji-qi-ren-lao-po": [
     {
-      "slug": "weekly-example-1",
-      "title": "週間ダイジェスト Vol.1",
-      "similarity": 0.835
+      "slug": "getting-started",
+      "title": "astro-koharu へようこそ",
+      "similarity": 0.304
     },
     {
-      "slug": "weekly-example-1",
-      "title": "示例周刊 Vol.1",
-      "similarity": 0.8
+      "slug": "avalon-zero",
+      "title": "Avalon Zero",
+      "similarity": 0.291
     },
+    {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "similarity": 0.267
+    },
+    {
+      "slug": "ri-ji-2024-1-8",
+      "title": "日记2024/1/8",
+      "similarity": 0.26
+    },
+    {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "similarity": 0.26
+    }
+  ],
+  "src\\content\\blog\\tech\\ji-lu-yi-ci-waline-de-pei-zhi-cai-keng": [
     {
       "slug": "theme-customization",
       "title": "主题定制指南",
-      "similarity": 0.54
+      "similarity": 0.452
+    },
+    {
+      "slug": "gei-hexo-next-bo-ke-tian-jia-shi-suan-yao-yao-le",
+      "title": "给hexo-next博客添加石蒜摇摇乐",
+      "similarity": 0.378
     },
     {
       "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.533
+      "title": "astro-koharu へようこそ",
+      "similarity": 0.37
+    },
+    {
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.366
     },
     {
       "slug": "getting-started",
       "title": "Welcome to astro-koharu",
-      "similarity": 0.516
+      "similarity": 0.358
     }
   ],
-  "toc-no-numbering": [
+  "gei-hexo-next-bo-ke-tian-jia-shi-suan-yao-yao-le": [
     {
-      "slug": "toc-no-numbering",
-      "title": "关闭目录编号示例",
-      "similarity": 0.69
+      "slug": "theme-customization",
+      "title": "主题定制指南",
+      "similarity": 0.522
     },
     {
-      "slug": "toc-no-numbering",
-      "title": "目次の自動番号を無効にする例",
-      "similarity": 0.674
+      "slug": "getting-started",
+      "title": "Welcome to astro-koharu",
+      "similarity": 0.519
+    },
+    {
+      "slug": "getting-started",
+      "title": "astro-koharu へようこそ",
+      "similarity": 0.46
+    },
+    {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "similarity": 0.42
     },
     {
       "slug": "weekly-example-1",
       "title": "週間ダイジェスト Vol.1",
-      "similarity": 0.442
-    },
-    {
-      "slug": "weekly-example-1",
-      "title": "Example Weekly Vol.1",
-      "similarity": 0.42
-    },
-    {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.404
+      "similarity": 0.411
     }
   ],
-  "src\\content\\blog\\note\\shoka-features": [
+  "xine": [
     {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.815
+      "slug": "avalon",
+      "title": "Avalon",
+      "similarity": 0.519
     },
     {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.705
+      "slug": "ri-ji-2024-1-8",
+      "title": "日记2024/1/8",
+      "similarity": 0.462
     },
     {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.658
+      "slug": "avalon-zero",
+      "title": "Avalon Zero",
+      "similarity": 0.336
     },
     {
-      "slug": "theme-customization",
-      "title": "主题定制指南",
-      "similarity": 0.572
-    },
-    {
-      "slug": "hello-world",
-      "title": "Hello World",
-      "similarity": 0.562
-    }
-  ],
-  "markdown-features": [
-    {
-      "slug": "src\\content\\blog\\note\\shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.815
-    },
-    {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.724
-    },
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.712
+      "slug": "xiao-zuo-wen-zhi-chui-xiang-shang-di-yin-hao",
+      "title": "小作文之《吹响！上低音号》",
+      "similarity": 0.251
     },
     {
       "slug": "getting-started",
       "title": "astro-koharu へようこそ",
-      "similarity": 0.661
-    },
-    {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.652
+      "similarity": 0.243
     }
   ],
-  "src\\content\\blog\\note\\encrypted-post-demo": [
+  "xiao-zuo-wen-zhi-chui-xiang-shang-di-yin-hao": [
     {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.589
+      "slug": "avalon-zero",
+      "title": "Avalon Zero",
+      "similarity": 0.468
+    },
+    {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "similarity": 0.412
+    },
+    {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "similarity": 0.377
+    },
+    {
+      "slug": "getting-started",
+      "title": "astro-koharu へようこそ",
+      "similarity": 0.364
+    },
+    {
+      "slug": "tian-jin-zui",
+      "title": "《天津罪》",
+      "similarity": 0.337
+    }
+  ],
+  "tian-jin-zui": [
+    {
+      "slug": "xiao-zuo-wen-zhi-chui-xiang-shang-di-yin-hao",
+      "title": "小作文之《吹响！上低音号》",
+      "similarity": 0.337
+    },
+    {
+      "slug": "avalon-zero",
+      "title": "Avalon Zero",
+      "similarity": 0.292
+    },
+    {
+      "slug": "ri-ji-2024-1-8",
+      "title": "日记2024/1/8",
+      "similarity": 0.28
+    },
+    {
+      "slug": "xine",
+      "title": "Xine",
+      "similarity": 0.219
+    },
+    {
+      "slug": "avalon",
+      "title": "Avalon",
+      "similarity": 0.209
+    }
+  ],
+  "ri-ji-2024-1-8": [
+    {
+      "slug": "xine",
+      "title": "Xine",
+      "similarity": 0.462
+    },
+    {
+      "slug": "avalon-zero",
+      "title": "Avalon Zero",
+      "similarity": 0.417
+    },
+    {
+      "slug": "avalon",
+      "title": "Avalon",
+      "similarity": 0.364
+    },
+    {
+      "slug": "weekly-example-1",
+      "title": "週間ダイジェスト Vol.1",
+      "similarity": 0.351
     },
     {
       "slug": "toc-no-numbering",
-      "title": "关闭目录编号示例",
-      "similarity": 0.545
-    },
-    {
-      "slug": "src\\content\\blog\\note\\shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.542
-    },
-    {
-      "slug": "weekly-example-1",
-      "title": "示例周刊 Vol.1",
-      "similarity": 0.515
-    },
-    {
-      "slug": "hello-world",
-      "title": "Hello World",
-      "similarity": 0.507
-    }
-  ],
-  "getting-started": [
-    {
-      "slug": "getting-started",
-      "title": "astro-koharu へようこそ",
-      "similarity": 0.874
-    },
-    {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.871
-    },
-    {
-      "slug": "theme-customization",
-      "title": "主题定制指南",
-      "similarity": 0.615
-    },
-    {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.611
-    },
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.548
-    }
-  ],
-  "astro-koharu-guide": [
-    {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.712
-    },
-    {
-      "slug": "src\\content\\blog\\note\\shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.705
-    },
-    {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.615
-    },
-    {
-      "slug": "theme-customization",
-      "title": "主题定制指南",
-      "similarity": 0.59
-    },
-    {
-      "slug": "infographic-guide",
-      "title": "Infographic 信息图指南",
-      "similarity": 0.586
+      "title": "目次の自動番号を無効にする例",
+      "similarity": 0.343
     }
   ],
   "hello-world": [
@@ -206,67 +206,202 @@
     },
     {
       "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.459
+      "title": "astro-koharu へようこそ",
+      "similarity": 0.436
     },
     {
-      "slug": "src\\content\\blog\\note\\shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.456
+      "slug": "theme-customization",
+      "title": "主题定制指南",
+      "similarity": 0.397
     }
   ],
-  "theme-customization": [
+  "avalon": [
     {
-      "slug": "getting-started",
-      "title": "欢迎使用 astro-koharu",
-      "similarity": 0.691
+      "slug": "xine",
+      "title": "Xine",
+      "similarity": 0.519
+    },
+    {
+      "slug": "avalon-zero",
+      "title": "Avalon Zero",
+      "similarity": 0.377
+    },
+    {
+      "slug": "ri-ji-2024-1-8",
+      "title": "日记2024/1/8",
+      "similarity": 0.364
     },
     {
       "slug": "weekly-example-1",
-      "title": "示例周刊 Vol.1",
-      "similarity": 0.658
+      "title": "週間ダイジェスト Vol.1",
+      "similarity": 0.245
     },
     {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.618
+      "slug": "hello-world",
+      "title": "Hello World",
+      "similarity": 0.239
+    }
+  ],
+  "avalon-zero": [
+    {
+      "slug": "xiao-zuo-wen-zhi-chui-xiang-shang-di-yin-hao",
+      "title": "小作文之《吹响！上低音号》",
+      "similarity": 0.468
     },
+    {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "similarity": 0.467
+    },
+    {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "similarity": 0.426
+    },
+    {
+      "slug": "ri-ji-2024-1-8",
+      "title": "日记2024/1/8",
+      "similarity": 0.417
+    },
+    {
+      "slug": "getting-started",
+      "title": "astro-koharu へようこそ",
+      "similarity": 0.392
+    }
+  ],
+  "theme-customization": [
     {
       "slug": "getting-started",
       "title": "Welcome to astro-koharu",
       "similarity": 0.615
     },
     {
-      "slug": "toc-no-numbering",
-      "title": "关闭目录编号示例",
-      "similarity": 0.614
+      "slug": "getting-started",
+      "title": "astro-koharu へようこそ",
+      "similarity": 0.61
+    },
+    {
+      "slug": "weekly-example-1",
+      "title": "週間ダイジェスト Vol.1",
+      "similarity": 0.601
+    },
+    {
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.581
+    },
+    {
+      "slug": "weekly-example-1",
+      "title": "Example Weekly Vol.1",
+      "similarity": 0.54
     }
   ],
   "infographic-guide": [
-    {
-      "slug": "src\\content\\blog\\note\\shoka-features",
-      "title": "Shoka 主题 Markdown 语法演示",
-      "similarity": 0.658
-    },
-    {
-      "slug": "markdown-features",
-      "title": "Markdown 增强功能演示",
-      "similarity": 0.652
-    },
-    {
-      "slug": "astro-koharu-guide",
-      "title": "astro-koharu 使用指南",
-      "similarity": 0.586
-    },
     {
       "slug": "theme-customization",
       "title": "主题定制指南",
       "similarity": 0.581
     },
     {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "similarity": 0.512
+    },
+    {
       "slug": "toc-no-numbering",
-      "title": "关闭目录编号示例",
-      "similarity": 0.58
+      "title": "目次の自動番号を無効にする例",
+      "similarity": 0.498
+    },
+    {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "similarity": 0.485
+    },
+    {
+      "slug": "weekly-example-1",
+      "title": "週間ダイジェスト Vol.1",
+      "similarity": 0.463
+    }
+  ],
+  "weekly-example-1": [
+    {
+      "slug": "weekly-example-1",
+      "title": "週間ダイジェスト Vol.1",
+      "similarity": 0.835
+    },
+    {
+      "slug": "theme-customization",
+      "title": "主题定制指南",
+      "similarity": 0.54
+    },
+    {
+      "slug": "getting-started",
+      "title": "Welcome to astro-koharu",
+      "similarity": 0.516
+    },
+    {
+      "slug": "getting-started",
+      "title": "astro-koharu へようこそ",
+      "similarity": 0.508
+    },
+    {
+      "slug": "toc-no-numbering",
+      "title": "目次の自動番号を無効にする例",
+      "similarity": 0.451
+    }
+  ],
+  "getting-started": [
+    {
+      "slug": "getting-started",
+      "title": "astro-koharu へようこそ",
+      "similarity": 0.874
+    },
+    {
+      "slug": "theme-customization",
+      "title": "主题定制指南",
+      "similarity": 0.615
+    },
+    {
+      "slug": "weekly-example-1",
+      "title": "週間ダイジェスト Vol.1",
+      "similarity": 0.521
+    },
+    {
+      "slug": "gei-hexo-next-bo-ke-tian-jia-shi-suan-yao-yao-le",
+      "title": "给hexo-next博客添加石蒜摇摇乐",
+      "similarity": 0.519
+    },
+    {
+      "slug": "weekly-example-1",
+      "title": "Example Weekly Vol.1",
+      "similarity": 0.516
+    }
+  ],
+  "toc-no-numbering": [
+    {
+      "slug": "toc-no-numbering",
+      "title": "目次の自動番号を無効にする例",
+      "similarity": 0.674
+    },
+    {
+      "slug": "weekly-example-1",
+      "title": "週間ダイジェスト Vol.1",
+      "similarity": 0.442
+    },
+    {
+      "slug": "weekly-example-1",
+      "title": "Example Weekly Vol.1",
+      "similarity": 0.42
+    },
+    {
+      "slug": "theme-customization",
+      "title": "主题定制指南",
+      "similarity": 0.399
+    },
+    {
+      "slug": "infographic-guide",
+      "title": "Infographic 信息图指南",
+      "similarity": 0.383
     }
   ]
 }
