@@ -102,8 +102,6 @@ while result.status == "continue" and self.turn < self.max_turns:
 
 **为什么用流式而不是一次性返回？** 因为工具调用可能需要用户授权。如果等整个响应返回再处理，用户体验会很差——他们看不到 AI 在"思考什么"。流式处理让文本实时显示，工具调用一完成就立即执行。
 
-**为什么 max_turns 默认 100？** 这是安全阀。复杂任务（比如重构整个模块）可能需要几十轮工具调用，但不应该无限循环。100 轮足够完成绝大多数任务，同时防止失控。
-
 **TurnPreparer 做了什么？** 它不只是简单地把工具列表传给 LLM。它会：
 - 根据当前 agent 的配置过滤可用工具
 - 合并 MCP 工具和内置工具
@@ -414,7 +412,11 @@ Phase E: Skill + Agent 并行发现
 
 ## 开发中的经验与教训
 
-**1. 延迟导入解决循环依赖**
+**人类是产品经理和架构师，同时也是 AI 的同事**
+
+==AI 比地球上的任何人都擅长快速实现一个具体的功能，但它不擅长权衡不同功能之间的关系，做出合理的架构设计==，如果不加以指导，AI 很可能会写出一个"大杂烩"式的代码，所有功能都混在一起，难以维护和扩展。作为开发者，我们需要时刻提醒自己：我们不是在写一个脚本，而是在构建一个系统。我们需要告诉 AI 如何正确地开发软件（比如 TDD 模式），实现清晰的模块边界划分、接口定义和设计原则，让它知道每个功能应该放在哪里，如何与其他功能交互。
+
+**2. 延迟导入解决循环依赖**
 
 `session/__init__.py` 用了一个巧妙的模式——lazy exports：
 
@@ -435,17 +437,17 @@ def __getattr__(name):
 
 session 包内部有大量交叉引用（processor 引用 compaction，compaction 引用 session，session 引用 processor）。传统的 `from .processor import SessionProcessor` 会导致循环导入。lazy export 把导入推迟到实际使用时，彻底解决了这个问题。
 
-**2. 不要用 try/except 掩盖问题**
+**3. 不要防御性编程掩盖问题**
 
 这是我在 CLAUDE.md 里写的第一条规则，也是开发过程中最深刻的教训。早期版本里到处是 `try/except Exception: pass`，看起来程序"不会崩溃"，实际上是把 bug 藏起来了。
 
 一个真实的例子：MCP 连接偶尔超时，早期的做法是 catch 住然后返回空工具列表。结果用户发现"工具有时候能用有时候不能用"，排查了很久才发现是超时被吞了。正确的做法是让超时错误冒泡到 AppContext 的健康追踪系统，标记为 degraded 并通知用户。
 
-**3. ContextVar 是多租户的利器**
+**4. ContextVar 是多租户的利器**
 
 Bus 和 ConfigManager 都用 `ContextVar` 实现实例隔离。这在测试中尤其有用——每个测试用例可以注入自己的 Bus 和 Config，完全不需要 mock。在 WebUI 的多用户场景下，每个请求的 ContextVar 自然隔离，不需要额外的租户管理代码。
 
-**4. Pydantic 既是校验器也是文档**
+**5. Pydantic 既是校验器也是文档**
 
 工具参数用 Pydantic model 定义，一举三得：
 - LLM 看到的是自动生成的 JSON Schema（tool definition）
