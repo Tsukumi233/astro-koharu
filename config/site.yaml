@@ -228,12 +228,12 @@ friends:
         image: https://your-blog.com/avatar.jpg # 头像链接
         color: "#ffc0cb" # 主题色（可选）
   data: # 友链列表
-    # - site: 余弦の博客
-    #   url: https://blog.cosine.ren
-    #   owner: cos
-    #   desc: FE / ACG / 手工 / 深色模式强迫症 / INFP / 兴趣广泛养两只猫的老宅女 / remote
-    #   image: https://blog.cosine.ren/img/avatar.webp
-    #   color: '#ed788b'
+    - site: 余弦の博客
+      url: https://blog.cosine.ren/
+      owner: cos
+      desc: 本站博客主题 astro-koharu 的作者，分享技术与生活
+      image: https://blog.cosine.ren/img/avatar.webp
+      color: '#ed788b'
     - site: 01.me
       url: https://01.me/
       owner: Bojie Li
@@ -258,6 +258,11 @@ friends:
       desc: 记录技术与生活
       image: 
       color: '#FBC1BC'
+    - site: Leisuer
+      url: https://blowingwind.top/
+      owner: Leisuer
+      desc: 好舍友
+      image: https://blowingwind.top/img/avatar.jpg
 
 
 # =============================================================================
@@ -667,7 +672,7 @@ christmas:
 #   icon: 导航图标，Iconify 格式（可选，默认：ri:bilibili-fill）
 # -----------------------------------------------------------------------------
 bangumi:
-  userId: cosine
+  userId: '716987'
   # label: 追番
   # icon: ri:bilibili-fill
 
