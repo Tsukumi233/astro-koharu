@@ -13,7 +13,10 @@ import { openModal } from '@store/modal';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 function getFontConfig(locale: string) {
-  const fontFamily = locale === 'ja' ? 'Gen Jyuu Gothic P' : '寒蝉全圆体';
+  const fontFamily =
+    locale === 'ja'
+      ? 'Gen Jyuu Gothic P'
+      : 'STZhongsong, 华文中宋, Source Han Serif SC Bold, Noto Serif SC Bold, Source Han Serif SC, Noto Serif SC, Source Han Serif CN, Songti SC, SimSun, serif';
   return `
 theme
   base

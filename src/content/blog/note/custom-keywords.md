@@ -10,6 +10,7 @@ categories:
 keywords:
   - 示例关键词一
   - 示例关键词二
+draft: true
 ---
 
 本文展示如何设置文章关键词。

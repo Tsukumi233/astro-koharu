@@ -11,6 +11,7 @@ categories:
 keywords:
   - 周刊
   - 示例
+draft: true
 ---
 
 这是一期示例周刊，展示周刊/系列文章功能的使用方式。

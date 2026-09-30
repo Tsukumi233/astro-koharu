@@ -10,6 +10,7 @@ tags:
   - 教程
 categories:
   - 笔记
+draft: true
 ---
 
 本文展示如何关闭目录的自动编号功能。

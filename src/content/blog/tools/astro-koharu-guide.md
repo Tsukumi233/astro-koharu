@@ -12,6 +12,7 @@ tags:
   - 教程
 categories:
   - 工具
+draft: true
 ---
 
 一份完整的 astro-koharu 博客系统使用指南，帮助你快速上手并充分利用所有功能特性。

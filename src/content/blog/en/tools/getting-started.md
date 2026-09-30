@@ -9,7 +9,7 @@ tags:
   - Astro
 categories:
   - 工具
-sticky: true
+sticky: false
 ---
 
 Welcome to the astro-koharu blog theme!

@@ -1,0 +1,76 @@
+/*
+ * Personal theme overrides (Tsukumi233) — ocean blue palette + 华文中宋 serif fonts.
+ *
+ * Kept in this single file (imported last from index.css) so upstream theme files
+ * stay untouched and upstream syncs don't conflict:
+ * - @theme overrides Tailwind theme values (Tailwind inlines them, so plain CSS vars wouldn't work)
+ * - later :root / .dark rules override the CSS variables from shadcn.css / theme/index.css
+ */
+
+/* Tailwind theme (fontFamily / colors from tailwind.config.mjs + design-tokens.ts, default pink/rose palette) */
+@theme {
+  --font-sans:
+    "STZhongsong", "华文中宋", "Source Han Serif SC Bold", "Noto Serif SC Bold", "Source Han Serif SC", "Noto Serif SC",
+    "Source Han Serif CN", "Songti SC", "SimSun", serif;
+  --font-chill-round: var(--font-sans);
+  --color-shoka: #3a8bbf;
+  --color-shoka-light: #4da0d4;
+  --color-shoka-dark: #2874a6;
+  --shadow-shoka-button: 0px 0px 16px 0px rgb(58, 139, 191, 0.8);
+
+  /* pink/rose → sky/cyan (used by FriendRequestForm & TagItem) */
+  --color-pink-50: oklch(97.7% 0.013 236.62);
+  --color-pink-100: oklch(95.1% 0.026 236.824);
+  --color-pink-300: oklch(82.8% 0.111 230.318);
+  --color-pink-400: oklch(74.6% 0.16 232.661);
+  --color-pink-600: oklch(58.8% 0.158 241.966);
+  --color-pink-700: oklch(50% 0.134 242.749);
+  --color-pink-900: oklch(39.1% 0.09 240.876);
+  --color-rose-200: oklch(91.7% 0.08 205.041);
+}
+
+/* shadcn.css */
+:root {
+  --primary: 207 62% 52%;
+  --primary-foreground: 207 100% 97%;
+  --ring: 207 62% 45%;
+  --badge-primary: 207 48% 44%;
+}
+
+.dark {
+  --primary: 207 58% 66%;
+  --primary-foreground: 207 100% 97%;
+  --ring: 207 58% 50%;
+  --badge-primary: 207 58% 66%;
+}
+
+/* theme/index.css */
+:root {
+  --gradient-pink: linear-gradient(279deg, #4da0d4 0%, #2874a6 100%);
+  --gradient-shoka-button-start: #4da0d4;
+  --gradient-shoka-button-end: #5bbcb5;
+  --color-pink: #4da0d4;
+  --color-pink-a3: rgba(77, 160, 212, 0.3);
+  --color-pink-text: #2874a6;
+}
+
+.dark {
+  --gradient-pink: linear-gradient(279deg, #4da0d4 0%, #2874a6 100%);
+  --gradient-shoka-button-start: #6ab4dccc;
+  --gradient-shoka-button-end: #6bc8c0cc;
+  --color-pink: #7bbde0;
+  --color-pink-a3: rgba(77, 160, 212, 0.3);
+  --color-pink-text: #7bbde0;
+}
+
+/* global/tailwind.css — same layer as upstream so :lang(ja) rules still take precedence */
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-sans);
+  }
+}

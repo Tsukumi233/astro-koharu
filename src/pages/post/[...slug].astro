@@ -214,7 +214,7 @@ if (post.data.description) {
           <SummaryPanel client:visible summary={summaryText} source={summarySource} className="mt-2" locale={locale} />
         )
       }
-      <article class="prose dark:prose-invert" data-pagefind-body>
+      <article class="prose prose-lg md:prose-base dark:prose-invert" data-pagefind-body>
         <CustomContent Content={Content} />
       </article>
       <Comment />
